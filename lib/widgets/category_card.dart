@@ -26,7 +26,6 @@ class CategoryCard extends StatelessWidget {
         child: Stack(
           fit: StackFit.expand,
           children: [
-            // Background Image
             Image.asset(
               category.image,
               fit: BoxFit.cover,
@@ -42,7 +41,6 @@ class CategoryCard extends StatelessWidget {
               },
             ),
 
-            // Dark Gradient
             Container(
               decoration: BoxDecoration(
                 gradient: LinearGradient(
@@ -56,7 +54,6 @@ class CategoryCard extends StatelessWidget {
               ),
             ),
 
-            // Category Information
             Positioned(
               left: 14,
               bottom: 14,
